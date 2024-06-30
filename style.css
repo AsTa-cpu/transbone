@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(241, 249, 249);
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  border: 2px solid rgb(205, 209, 214);
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+nav {
+  width: 50%;
+  max-width: 300px;
+}
+nav li {
+  list-style: none;
+  font-size: 18px;
+}
+h1 {
+  font-size: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.one {
+  text-align: center;
+}
+.one h2,
+.one input,
+.one p {
+  padding: 5px;
+  margin: 5px;
+}
+.get {
+  background-color: rgb(254, 216, 47);
+  border: 0;
+  color: white;
+}
+.two {
+  margin-top: 70px;
+}
+.two div {
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+.four {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  justify-content: space-around;
+}
+.four div {
+  border: 1px solid;
+  text-align: center;
+  margin: 7px;
+  height: 250px;
+  border-radius: 3px;
+
+  width: 27%;
+}
+.four h2 {
+  background-color: rgb(205, 209, 214);
+  font-size: 13px;
+  padding: 10px;
+}
+.four li {
+  list-style: none;
+  padding: 5px;
+}
+h3 {
+  padding: 5px;
+  margin-top: 3px;
+}
+.four input {
+  margin-top: 20px;
+  width: 45%;
+  padding: 7px;
+  color: rgb(77, 77, 113);
+  background-color: rgb(253, 188, 67);
+  border: 0;
+}
+footer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: rgb(205, 209, 214);
+  padding-bottom: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: ;
+  justify-content: right;
+}
+footer li {
+  padding: 10px;
+  list-style: none;
+  margin-right: 15px;
+  font-size: 17px;
+}
+address {
+  text-align: right;
+  margin-right: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+}
+video {
+  margin-left: 150px;
+  width: 50%;
+}
